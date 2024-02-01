@@ -30,7 +30,7 @@ func main() {
 	//	fmt.Println()
 
 	fmt.Println("Ejercicio 01")
-	numero, respuesta := ejercicios.ValidaNumero("50")
+	numero, respuesta := ejercicios.ValidaNumero("xx")
 	fmt.Println(numero)
 	fmt.Println(respuesta)
 }

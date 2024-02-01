@@ -2,15 +2,17 @@ package ejercicios
 
 import "strconv"
 
-func ValidaNumero(dato string) (numero int, respuesta string) {
+func ValidaNumero(dato string) (int, string) {
 
-	numero, _ = strconv.Atoi(dato)
+	numero, error := strconv.Atoi(dato)
 
-	if numero > 100 {
-		respuesta = "El numero es mayor a 100"
-	} else {
-		respuesta = "El numero es menor a 100"
+	if error != nil {
+		return 0, "Hubo un error"
 	}
 
-	return numero, respuesta
+	if numero > 100 {
+		return numero, "El numero es mayor a 100"
+	} else {
+		return numero, "El numero es menor a 100"
+	}
 }
