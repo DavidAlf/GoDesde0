@@ -8,7 +8,16 @@ chcp 1252 > NUL
 setlocal
 
 git add .
-set TEXTO=%1% %DATE% - %TIME%
+
+SET PARAM=%1
+:LOOP
+SHIFT
+IF %1.==. GOTO JUMP
+ST PARAM=%PARAM% %1
+GOTO LOOP
+:JUMP
+
+set TEXTO=%PARAM% -> %DATE% - %TIME%
 
 git commit -m "%TEXTO%"
 
