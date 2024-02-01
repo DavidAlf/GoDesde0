@@ -21,4 +21,6 @@ set TEXTO=%PARAM% -> %DATE% - %TIME%
 
 git commit -m "%TEXTO%"
 
-echo DONE COMMIT: %TEXTO%
+git push
+
+echo COMMIT DONE: %TEXTO%
