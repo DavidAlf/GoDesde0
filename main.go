@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/DavidAlf/GoDesde0/ejercicios"
+	"github.com/DavidAlf/GoDesde0/files"
 )
 
 func main() {
@@ -36,9 +36,15 @@ func main() {
 
 	fmt.Println()
 	fmt.Println("Uso del For")
-	iteraciones.Iterar()*/
+	iteraciones.Iterar()
 
 	fmt.Println()
 	fmt.Println("Ejercicio 02")
-	ejercicios.TablaDeMultiplicar()
+
+	fmt.Println(ejercicios.TablaDeMultiplicar())*/
+
+	fmt.Println()
+	fmt.Println("Archivos")
+
+	files.SumaTabla()
 }
