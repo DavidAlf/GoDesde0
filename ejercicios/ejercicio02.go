@@ -30,7 +30,7 @@ func TablaDeMultiplicar() {
 
 	fmt.Println("Va a crear la tabla de multiplicar", numero)
 	for i := 0; i <= 10; i++ {
-		fmt.Printf("%d x %d = %d", numero, i, numero*i)
-		fmt.Println()
+		fmt.Printf("%d x %d = %d \n", numero, i, numero*i)
+
 	}
 }
