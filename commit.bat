@@ -8,7 +8,8 @@ chcp 1252 > NUL
 setlocal
 
 git add .
-set TEXTO=Siguiente Commit %DATE% - %TIME%
+set TEXTO=%1 %DATE% - %TIME%
 
 git commit -m "%TEXTO%"
 
+echo DONE COMMIT: %TEXTO%
