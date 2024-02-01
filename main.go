@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/DavidAlf/GoDesde0/teclado"
+	"github.com/DavidAlf/GoDesde0/ejercicios"
 )
 
 func main() {
@@ -28,9 +28,17 @@ func main() {
 	fmt.Println("Ejercicio 01")
 	numero, respuesta := ejercicios.ValidaNumero("f")
 	fmt.Println(numero)
-	fmt.Println(respuesta)*/
+	fmt.Println(respuesta)
 
 	fmt.Println()
 	fmt.Println("Ingreso de datos")
 	teclado.IngresoNumeros()
+
+	fmt.Println()
+	fmt.Println("Uso del For")
+	iteraciones.Iterar()*/
+
+	fmt.Println()
+	fmt.Println("Ejercicio 02")
+	ejercicios.TablaDeMultiplicar()
 }
