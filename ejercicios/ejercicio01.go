@@ -7,7 +7,7 @@ func ValidaNumero(dato string) (int, string) {
 	numero, error := strconv.Atoi(dato)
 
 	if error != nil {
-		return 0, "Hubo un error"
+		return numero, "Hubo un error" + error.Error()
 	}
 
 	if numero > 100 {
