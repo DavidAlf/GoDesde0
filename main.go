@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/DavidAlf/GoDesde0/funciones"
+	arreglosslices "github.com/DavidAlf/GoDesde0/arreglosSlices"
 )
 
 func main() {
@@ -63,11 +61,22 @@ func main() {
 	fmt.Println()
 	fmt.Println("Funciones Closures")
 
-	funciones.LlamarCLosures()*/
+	funciones.LlamarCLosures()
 
 	fmt.Println()
 	fmt.Println("Recursion")
 
 	funciones.Exponencia(2)
+
+	fmt.Println()
+	fmt.Println("Arreglos")
+
+	arreglosslices.MuestroArreglo()
+
+	fmt.Println()
+	fmt.Println("Slice")
+
+	arreglosslices.MuestroSlice()*/
+	arreglosslices.Capacidad()
 
 }

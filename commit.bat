@@ -23,4 +23,3 @@ git commit -m "%TEXTO%"
 
 git push
 
-rmdir "./files/txt/.*"
