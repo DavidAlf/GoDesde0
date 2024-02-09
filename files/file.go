@@ -40,7 +40,7 @@ func GuardaTablaTotal() {
 
 func SumaTabla() {
 
-	if Append(total, texto) == false {
+	if !Append(total, texto) {
 		fmt.Println("Error al concatenar contenido")
 	}
 
