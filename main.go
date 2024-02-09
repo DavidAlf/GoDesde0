@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/DavidAlf/GoDesde0/files"
+	"github.com/DavidAlf/GoDesde0/funciones"
 )
 
 func main() {
@@ -48,10 +48,26 @@ func main() {
 	fmt.Println("Archivos")
 
 	files.SumaTabla()
-	*/
+
 
 	fmt.Println()
 	fmt.Println("Archivos")
 
 	files.LeoArchivo()
+
+	fmt.Println()
+	fmt.Println("Funciones Anonimas")
+
+	funciones.Calculos()
+
+	fmt.Println()
+	fmt.Println("Funciones Closures")
+
+	funciones.LlamarCLosures()*/
+
+	fmt.Println()
+	fmt.Println("Recursion")
+
+	funciones.Exponencia(2)
+
 }
