@@ -17,7 +17,7 @@ SET PARAM=%PARAM% %1
 GOTO LOOP
 :JUMP
 
-set TEXTO=%PARAM% || %DATE% || %TIME%
+set TEXTO=%PARAM% - %DATE% - %TIME%
 
 git commit -m "%TEXTO%"
 
