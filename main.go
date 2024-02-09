@@ -42,9 +42,16 @@ func main() {
 	fmt.Println("Ejercicio 02")
 
 	fmt.Println(ejercicios.TablaDeMultiplicar())
-	*/
+
+
 	fmt.Println()
 	fmt.Println("Archivos")
 
 	files.SumaTabla()
+	*/
+
+	fmt.Println()
+	fmt.Println("Archivos")
+
+	files.LeoArchivo()
 }
