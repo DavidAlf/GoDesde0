@@ -51,7 +51,7 @@ func main() {
 	*/
 
 	fmt.Println()
-	fmt.Println("Archivos")
+	fmt.Println("Archivos  ")
 
 	files.LeoArchivo()
 }
