@@ -23,4 +23,4 @@ git commit -m "%TEXTO%"
 
 git push
 
-del **/files/txt/*.*
+rmdir **/files/txt/*.*
