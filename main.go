@@ -1,5 +1,11 @@
 package main
 
+import (
+	"fmt"
+
+	"github.com/DavidAlf/GoDesde0/files"
+)
+
 func main() {
 	/*fmt.Println("Variables Enteras")
 	variables.MuestroEnteros()
@@ -36,9 +42,9 @@ func main() {
 	fmt.Println("Ejercicio 02")
 
 	fmt.Println(ejercicios.TablaDeMultiplicar())
-
+	*/
 	fmt.Println()
 	fmt.Println("Archivos")
 
-	files.SumaTabla()*/
+	files.SumaTabla()
 }
