@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/DavidAlf/GoDesde0/mapas"
+	"github.com/DavidAlf/GoDesde0/users"
 )
 
 func main() {
@@ -79,11 +79,15 @@ func main() {
 	fmt.Println("Slice")
 
 	arreglosslices.MuestroSlice()
-	arreglosslices.Capacidad()*/
+	arreglosslices.Capacidad()
 
 	fmt.Println()
 	fmt.Println("Mapas")
 
-	mapas.MostratMapas()
+	mapas.MostratMapas()*/
 
+	fmt.Println()
+	fmt.Println("Estructura de User")
+
+	users.AltaUsuario()
 }
