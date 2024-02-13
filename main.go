@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/DavidAlf/GoDesde0/users"
+	e "github.com/DavidAlf/GoDesde0/ejer_interfaces"
+	m "github.com/DavidAlf/GoDesde0/modelos"
 )
 
 func main() {
@@ -84,10 +85,20 @@ func main() {
 	fmt.Println()
 	fmt.Println("Mapas")
 
-	mapas.MostratMapas()*/
+	mapas.MostratMapas()
 
 	fmt.Println()
 	fmt.Println("Estructura de User")
 
-	users.AltaUsuario()
+	users.AltaUsuario()*/
+
+	fmt.Println()
+	fmt.Println("Humano Interface")
+
+	Pedro := new(m.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(m.Mujer)
+	e.HumanosRespirando(Maria)
+
 }
