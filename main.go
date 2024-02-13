@@ -3,8 +3,7 @@ package main
 import (
 	"fmt"
 
-	e "github.com/DavidAlf/GoDesde0/ejer_interfaces"
-	m "github.com/DavidAlf/GoDesde0/modelos"
+	deffer "github.com/DavidAlf/GoDesde0/errores"
 )
 
 func main() {
@@ -90,7 +89,7 @@ func main() {
 	fmt.Println()
 	fmt.Println("Estructura de User")
 
-	users.AltaUsuario()*/
+	users.AltaUsuario()
 
 	fmt.Println()
 	fmt.Println("Humano Interface")
@@ -99,6 +98,13 @@ func main() {
 	e.HumanosRespirando(Pedro)
 
 	Maria := new(m.Mujer)
-	e.HumanosRespirando(Maria)
+	e.HumanosRespirando(Maria)*/
+
+	fmt.Println()
+	fmt.Println("Defer y Panic")
+
+	deffer.VemosDefer()
+
+	deffer.EjemploPanic()
 
 }
