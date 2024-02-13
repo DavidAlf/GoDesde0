@@ -1,7 +1,9 @@
 package main
 
 import (
-	arreglosslices "github.com/DavidAlf/GoDesde0/arreglosSlices"
+	"fmt"
+
+	"github.com/DavidAlf/GoDesde0/mapas"
 )
 
 func main() {
@@ -76,7 +78,12 @@ func main() {
 	fmt.Println()
 	fmt.Println("Slice")
 
-	arreglosslices.MuestroSlice()*/
-	arreglosslices.Capacidad()
+	arreglosslices.MuestroSlice()
+	arreglosslices.Capacidad()*/
+
+	fmt.Println()
+	fmt.Println("Mapas")
+
+	mapas.MostratMapas()
 
 }
