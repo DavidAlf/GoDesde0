@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/DavidAlf/GoDesde0/webserver"
+	"github.com/DavidAlf/GoDesde0/middleware"
 )
 
 func main() {
@@ -118,11 +118,16 @@ func main() {
 		<-canal1
 	}()
 
-	fmt.Println("Estoy aqui")*/
+	fmt.Println("Estoy aqui")
 
 	fmt.Println()
 	fmt.Println("Aplicacion WebServe")
 
-	webserver.MiWebServer()
+	webserver.MiWebServer()*/
+
+	fmt.Println()
+	fmt.Println("Middleware")
+
+	middleware.MiMiddleware()
 
 }
