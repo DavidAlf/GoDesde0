@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/DavidAlf/GoDesde0/routines"
+	"github.com/DavidAlf/GoDesde0/webserver"
 )
 
 func main() {
@@ -105,7 +105,7 @@ func main() {
 
 	deffer.VemosDefer()
 
-	deffer.EjemploPanic()*/
+	deffer.EjemploPanic()
 
 	fmt.Println()
 	fmt.Println("Routines")
@@ -118,6 +118,11 @@ func main() {
 		<-canal1
 	}()
 
-	fmt.Println("Estoy aqui")
+	fmt.Println("Estoy aqui")*/
+
+	fmt.Println()
+	fmt.Println("Aplicacion WebServe")
+
+	webserver.MiWebServer()
 
 }
