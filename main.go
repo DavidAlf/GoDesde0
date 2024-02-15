@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	deffer "github.com/DavidAlf/GoDesde0/errores"
+	"github.com/DavidAlf/GoDesde0/routines"
 )
 
 func main() {
@@ -98,13 +98,23 @@ func main() {
 	e.HumanosRespirando(Pedro)
 
 	Maria := new(m.Mujer)
-	e.HumanosRespirando(Maria)*/
+	e.HumanosRespirando(Maria)
 
 	fmt.Println()
 	fmt.Println("Defer y Panic")
 
 	deffer.VemosDefer()
 
-	deffer.EjemploPanic()
+	deffer.EjemploPanic()*/
+
+	fmt.Println()
+	fmt.Println("Routines")
+
+	go routines.MiNombreLento("David Alfonso")
+
+	fmt.Println("Estoy aqui")
+
+	var x string
+	fmt.Scanln(&x)
 
 }
