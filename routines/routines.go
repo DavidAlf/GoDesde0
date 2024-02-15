@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func MiNombreLento(nombre string) {
+func MiNombreLento(nombre string, canal1 chan bool) {
 	letras := strings.Split(nombre, "")
 
 	for _, letra := range letras {
@@ -15,4 +15,5 @@ func MiNombreLento(nombre string) {
 		fmt.Println(letra)
 	}
 
+	canal1 <- true
 }

@@ -110,11 +110,14 @@ func main() {
 	fmt.Println()
 	fmt.Println("Routines")
 
-	go routines.MiNombreLento("David Alfonso")
+	canal1 := make(chan bool)
+
+	go routines.MiNombreLento("David Alfonso", canal1)
+
+	defer func() {
+		<-canal1
+	}()
 
 	fmt.Println("Estoy aqui")
-
-	var x string
-	fmt.Scanln(&x)
 
 }
